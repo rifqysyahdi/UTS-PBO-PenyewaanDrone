@@ -51,32 +51,32 @@ Program terdiri dari 4 kelas utama dalam package `utspbo`:
 ## Penjelasan Hasil Output (Screenshot)
 
 ### 1. Tampilan Menu Utama
-![Menu Utama](<img width="421" height="224" alt="Screenshot 2026-09-27 222555" src="https://github.com/user-attachments/assets/99442738-1d68-46fd-8a40-cc21b8d3bfb4" />)
+![Menu Utama]()
 * **Penjelasan:** Tampilan awal program saat dijalankan. Memuat header program "SISTEM SEWA DRONE BANGBRO" dan menyajikan 6 pilihan menu utama yang dapat dipilih oleh pengguna dengan memasukkan angka 1 sampai 6.
 
 
 ### 2. Tampilan Menu 1 - Lihat Daftar Drone (Read)
-![Lihat Daftar Drone](<img width="505" height="752" alt="Screenshot 2026-09-27 222712" src="https://github.com/user-attachments/assets/dc203b3c-542a-416c-a08e-191f43d3dd67" />)
+![Lihat Daftar Drone]()
 * **Penjelasan:** Output saat pengguna memilih **Menu 1**. Sistem menampilkan seluruh koleksi data drone yang ada di dalam `ArrayList`. Terlihat penerapan *Polymorphism (Overriding)* di mana tipe `DroneAerial` menampilkan atribut khusus `Resolusi`, sedangkan `DroneFPV` menampilkan atribut khusus `Kacamata VR`.
 
 
 ### 3. Tampilan Menu 2 - Tambah Drone Baru (Create)
-![Tambah Drone](<img width="354" height="272" alt="Screenshot 2026-09-27 222826" src="https://github.com/user-attachments/assets/0a03bcc2-3090-47d4-a92a-53df71b74f59" />)
+![Tambah Drone]()
 * **Penjelasan:** Output saat pengguna memilih **Menu 2**. Sistem meminta input jenis drone (1. Aerial / 2. FPV). Pada contoh ini, pengguna memilih opsi `2` (Drone FPV) lalu mengisi data ID (`F03`), Merk (`ZX-300`), Tipe (`MARK-15`), Harga/Hari (`1000000000`), serta status goggles (`y`). Setelah diisi, pesan konfirmasi "Drone FPV berhasil ditambahkan!" muncul.
 
 
 ### 4. Tampilan Menu 3 - Ubah Data Drone (Update)
-![Ubah Data Drone](<img width="422" height="318" alt="Screenshot 2026-09-27 222922" src="https://github.com/user-attachments/assets/9b938b68-feae-41dd-b72a-8331144f4051" />)
+![Ubah Data Drone]()
 * **Penjelasan:** Output saat pengguna memilih **Menu 3**. Sistem terlebih dahulu menampilkan daftar drone beserta nomor urutnya. Pengguna memilih nomor `5` (yaitu data F03 yang baru ditambahkan) untuk diperbarui datanya menjadi Merk (`CBR-150`), Tipe (`MARK-50`), Harga Baru, dan status goggles baru. Pesan konfirmasi "Data drone berhasil diperbarui!" menandakan perubahan berhasil disimpan ke `ArrayList`.
 
 
 ### 5. Tampilan Menu 4 - Hapus Data Drone (Delete)
-![Hapus Data Drone](<img width="403" height="232" alt="Screenshot 2026-09-27 222948" src="https://github.com/user-attachments/assets/5de68160-c308-4f90-8865-2c33309258e0" />)
+![Hapus Data Drone]()
 * **Penjelasan:** Output saat pengguna memilih **Menu 4**. Sistem menampilkan daftar ringkas drone. Pengguna memilih nomor `5` untuk dihapus dari sistem. Setelah dipilih, sistem menghapus objek dari `ArrayList` dan menampilkan notifikasi "Data drone berhasil dihapus!".
 
 
 ### 6. Tampilan Menu 5 - Transaksi Sewa Drone
-![Transaksi Sewa Drone](<img width="515" height="564" alt="Screenshot 2026-09-27 223108" src="https://github.com/user-attachments/assets/597f2345-9ba1-445e-b3fb-fc8320afd2f2" />)
+![Transaksi Sewa Drone]()
 * **Penjelasan:** Output saat pengguna memilih **Menu 5**. 
   * Pengguna memilih unit drone nomor `4` (BetaFPV Cetus X - Rp 200.000/hari).
   * Pengguna menginputkan Nama Penyewa (`Yusuf`) dan Lama Sewa (`7` hari).
@@ -89,6 +89,6 @@ Program terdiri dari 4 kelas utama dalam package `utspbo`:
 
 
 ### 7. Tampilan Menu 6 - Keluar dari Program
-![Keluar Program](<img width="673" height="373" alt="Screenshot 2026-09-27 223123" src="https://github.com/user-attachments/assets/8ec51014-4a3c-44e4-a896-3e42c76cae49" />)
+![Keluar Program]()
 * **Penjelasan:** Output saat pengguna memilih **Menu 6**. Sistem menghentikan loop perulangan utama, menampilkan pesan "Program selesai.", dan menyelesaikan eksekusi program Java (`BUILD SUCCESS`).
 
