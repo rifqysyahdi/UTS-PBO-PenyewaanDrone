@@ -51,32 +51,32 @@ Program terdiri dari 4 kelas utama dalam package `utspbo`:
 ## Penjelasan Hasil Output (Screenshot)
 
 ### 1. Tampilan Menu Utama
-![Menu Utama]()
+![Menu Utama](/aset/Menu.png)
 * **Penjelasan:** Tampilan awal program saat dijalankan. Memuat header program "SISTEM SEWA DRONE BANGBRO" dan menyajikan 6 pilihan menu utama yang dapat dipilih oleh pengguna dengan memasukkan angka 1 sampai 6.
 
 
 ### 2. Tampilan Menu 1 - Lihat Daftar Drone (Read)
-![Lihat Daftar Drone]()
+![Lihat Daftar Drone](/aset/Read.png)
 * **Penjelasan:** Output saat pengguna memilih **Menu 1**. Sistem menampilkan seluruh koleksi data drone yang ada di dalam `ArrayList`. Terlihat penerapan *Polymorphism (Overriding)* di mana tipe `DroneAerial` menampilkan atribut khusus `Resolusi`, sedangkan `DroneFPV` menampilkan atribut khusus `Kacamata VR`.
 
 
 ### 3. Tampilan Menu 2 - Tambah Drone Baru (Create)
-![Tambah Drone]()
+![Tambah Drone](/aset/Create.png)
 * **Penjelasan:** Output saat pengguna memilih **Menu 2**. Sistem meminta input jenis drone (1. Aerial / 2. FPV). Pada contoh ini, pengguna memilih opsi `2` (Drone FPV) lalu mengisi data ID (`F03`), Merk (`ZX-300`), Tipe (`MARK-15`), Harga/Hari (`1000000000`), serta status goggles (`y`). Setelah diisi, pesan konfirmasi "Drone FPV berhasil ditambahkan!" muncul.
 
 
 ### 4. Tampilan Menu 3 - Ubah Data Drone (Update)
-![Ubah Data Drone]()
+![Ubah Data Drone](/aset/Update.png)
 * **Penjelasan:** Output saat pengguna memilih **Menu 3**. Sistem terlebih dahulu menampilkan daftar drone beserta nomor urutnya. Pengguna memilih nomor `5` (yaitu data F03 yang baru ditambahkan) untuk diperbarui datanya menjadi Merk (`CBR-150`), Tipe (`MARK-50`), Harga Baru, dan status goggles baru. Pesan konfirmasi "Data drone berhasil diperbarui!" menandakan perubahan berhasil disimpan ke `ArrayList`.
 
 
 ### 5. Tampilan Menu 4 - Hapus Data Drone (Delete)
-![Hapus Data Drone]()
+![Hapus Data Drone](/aset/Delete.png)
 * **Penjelasan:** Output saat pengguna memilih **Menu 4**. Sistem menampilkan daftar ringkas drone. Pengguna memilih nomor `5` untuk dihapus dari sistem. Setelah dipilih, sistem menghapus objek dari `ArrayList` dan menampilkan notifikasi "Data drone berhasil dihapus!".
 
 
 ### 6. Tampilan Menu 5 - Transaksi Sewa Drone
-![Transaksi Sewa Drone]()
+![Transaksi Sewa Drone](/aset/Transaksi.png)
 * **Penjelasan:** Output saat pengguna memilih **Menu 5**. 
   * Pengguna memilih unit drone nomor `4` (BetaFPV Cetus X - Rp 200.000/hari).
   * Pengguna menginputkan Nama Penyewa (`Yusuf`) dan Lama Sewa (`7` hari).
@@ -89,6 +89,6 @@ Program terdiri dari 4 kelas utama dalam package `utspbo`:
 
 
 ### 7. Tampilan Menu 6 - Keluar dari Program
-![Keluar Program]()
+![Keluar Program](/aset/Keluar.png)
 * **Penjelasan:** Output saat pengguna memilih **Menu 6**. Sistem menghentikan loop perulangan utama, menampilkan pesan "Program selesai.", dan menyelesaikan eksekusi program Java (`BUILD SUCCESS`).
 
