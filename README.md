@@ -51,7 +51,7 @@ Program terdiri dari 4 kelas utama dalam package `utspbo`:
 ## Penjelasan Hasil Output (Screenshot)
 
 ### 1. Tampilan Menu Utama
-![Menu Utama](<img width="421" height="224" alt="Screenshot 2026-09-27 222555" src="https://github.com/user-attachments/assets/20435751-f1d2-4ea2-9cd6-b4c200559a1c" />)
+![Menu Utama](<img width="421" height="224" alt="Screenshot 2026-09-27 222555" src="https://github.com/user-attachments/assets/99442738-1d68-46fd-8a40-cc21b8d3bfb4" />)
 * **Penjelasan:** Tampilan awal program saat dijalankan. Memuat header program "SISTEM SEWA DRONE BANGBRO" dan menyajikan 6 pilihan menu utama yang dapat dipilih oleh pengguna dengan memasukkan angka 1 sampai 6.
 
 
